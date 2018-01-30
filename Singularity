@@ -22,7 +22,7 @@ From: tensorflow/tensorflow:latest-gpu-py3
   chmod +x /environment
 
   # default mount paths
-  mkdir /scratch /data 
+  mkdir -p /scratch /data /usr/bin
 
   # load in extra packages for python
   apt-get update && apt-get -y install locales
